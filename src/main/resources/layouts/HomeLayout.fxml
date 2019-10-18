@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="417.0" maxWidth="586.0" minHeight="308.0" minWidth="377.0" prefHeight="308.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.multiply.controllers.MultiplyController">
+   <children>
+      <VBox layoutY="-1.0" prefHeight="308.0" prefWidth="392.0">
+         <children>
+            <Pane prefHeight="316.0" prefWidth="392.0">
+               <children>
+                  <Button fx:id="cancel" layoutX="237.0" layoutY="223.0" mnemonicParsing="false" text="Cancel" />
+                  <TextField fx:id="value1" layoutX="113.0" layoutY="40.0" promptText="value1" />
+                  <TextField fx:id="value2" layoutX="113.0" layoutY="91.0" promptText="value2" />
+                  <TextField fx:id="result" disable="true" layoutX="113.0" layoutY="161.0" promptText="result" />
+                  <Button fx:id="multiply" layoutX="113.0" layoutY="223.0" mnemonicParsing="false" text="Multiply" />
+                  <Label layoutX="14.0" layoutY="45.0" text="Value1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="96.0" text="Value2">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="166.0" text="Result">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="invalid1" layoutX="117.0" layoutY="67.0" prefHeight="17.0" prefWidth="160.0" text="Invalid Value" textFill="#ee0808" visible="false" />
+                  <Label fx:id="invalid2" layoutX="117.0" layoutY="129.0" prefHeight="17.0" prefWidth="160.0" text="Invalid Value" textFill="#ee0808" visible="false" />
+               </children>
+            </Pane>
+         </children>
+
+
+      </VBox>
+
+   </children>
+</AnchorPane>
